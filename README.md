@@ -27,6 +27,13 @@ tsconfig.json: inställningar för TypeScript-kompilatorn som skapar JS av TS, o
 Annat:
 ESLint: https://eslint.org
 
+State (tillstånd) och hooks:
+https://react.dev/reference/react/useState
+
+Controlled Components
+
+Toast för att visa statusmeddelande: https://react-hot-toast.com
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
