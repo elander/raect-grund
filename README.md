@@ -31,8 +31,15 @@ State (tillstånd) och hooks:
 https://react.dev/reference/react/useState
 
 Controlled Components
+https://react.dev/learn/sharing-state-between-components#controlled-and-uncontrolled-components
 
 Toast för att visa statusmeddelande: https://react-hot-toast.com
+
+Alla dependencies för ett npm package:
+npx npm-remote-ls <packagename>
+
+Fler dependency-relaterade kommandon:
+https://bobbyhadz.com/blog/view-dependency-tree-of-npm-module
 
 # React + TypeScript + Vite
 
