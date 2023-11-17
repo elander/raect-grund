@@ -41,6 +41,33 @@ npx npm-remote-ls <packagename>
 Fler dependency-relaterade kommandon:
 https://bobbyhadz.com/blog/view-dependency-tree-of-npm-module
 
+Tillståndshantering när varken props drilling eller Context räcker:
+https://docs.pmnd.rs/zustand/getting-started/introduction
+
+(Context: https://react.dev/learn/scaling-up-with-reducer-and-context)
+
+(Redux: https://redux-toolkit.js.org/tutorials/overview)
+
+Flexbox Froggy, övningar för flexbox:
+https://flexboxfroggy.com/#sv
+
+Specialare för att skapa typer från arrayer finns i "array till typ.md"
+
+React drag and drop
+https://react-dnd.github.io/react-dnd/docs/api/dnd-provider
+
+Typesafe kommunikation med server i (bland annat) Next, trpc
+https://trpc.io
+
+Zod, för enkel validering av data som kommer från användare eller apier
+https://zod.dev
+
+Kommunikation med databas om du har en egen server och Next, Prisma
+https://www.prisma.io
+
+Om du vill köra databas på CDN, Drizzle (funkar på egen server också)
+https://orm.drizzle.team
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

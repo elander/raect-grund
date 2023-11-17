@@ -1,13 +1,17 @@
 import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import toast from "react-hot-toast";
-import { Task } from "../../App";
 
+export interface Task {
+  id: string;
+  title: string;
+  status: "option" | "todo" | "doing" | "waiting" | "done";
+}
 interface TaskCreationFormProps {
   tasks: Task[];
   setTasks: ( tasks: Task[] ) => void;
 }
-export function TaskCreationForm( { tasks, setTasks }: TaskCreationFormProps ) {
+export default function TaskCreationForm( { tasks, setTasks }: TaskCreationFormProps ) {
   const [ task, setTask ] = useState<Task>( {
     id: uuidv4(),
     title: "",
